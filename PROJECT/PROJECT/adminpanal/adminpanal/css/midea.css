@@ -1,0 +1,136 @@
+@media(max-width:720px){
+    .addd{
+        display: none;
+    }
+ 
+    aside.animate__animated.animate__fadeInLeft{
+        background-color:whitesmoke;
+        z-index: 11;
+        box-shadow: none;
+
+    
+    }
+    
+main{
+    margin: 0;
+    height: fit-content;
+    width:100%;
+    position: absolute;
+    z-index: -1;
+ 
+}
+#bars{
+  
+    margin-right: 55px;
+    order: 2;
+
+}
+.icon{
+    /* flex-direction:; */
+    order: 1;
+    
+}
+
+  .hmm{
+   margin-bottom: 20px;
+   margin-right: 20PX;
+/* order: 2; */
+   flex-direction: column;
+  }
+  .togal{
+    margin-right:50px ;
+  }
+  .a{
+width: 45%;
+
+  }
+  .g{
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .graph{
+    width: 90%;
+    height: 100vh;
+  }
+  .graph1{
+    margin-top: 20px;
+    width: 90%;
+    height: 600px;
+  }
+  .recentm{
+    flex-direction: column;
+  }
+  main .recent_order{
+    width: 96%;
+    height: fit-content;
+    /* width: fit-content; */
+  }
+  .right{
+    margin-top: 20px;
+    height: fit-content;
+    width: 100%;
+  }
+  .chartContainer{
+    height: fit-content;
+    width: 100%;
+  }
+}
+
+
+
+@media(max-width:480px){
+    aside{
+     display: none;
+    }
+main{
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+}
+#bars{
+    order: 5;
+    margin-right: 55px;
+}
+  .icon i{
+    display: none;
+
+
+  }
+  .hmm{
+   margin-bottom: 20px;
+
+   flex-direction: column;
+  }
+  .togal{
+    margin-right:50px ;
+  }
+  .a{
+width: 45%;
+
+  }
+  .g{
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .graph{
+    width: 90%;
+    height: 600px;
+  }
+  .graph1{
+    margin-top: 20px;
+    width: 90%;
+    height: 600px;
+  }
+  .recentm{
+    flex-direction: column;
+  }
+  main .recent_order{
+    width: 90%;
+    height: fit-content;
+    width: fit-content;
+  }
+  .right{
+    height: fit-content;
+    width: fit-content;
+  }
+}
